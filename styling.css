@@ -18,6 +18,16 @@ body{
     align-items: center;
 }
 
+header{
+    font-weight: 900;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
 .define{
     color: aliceblue;
     text-decoration: underline;
