@@ -12,10 +12,14 @@ body{
 
 #container{
     height: 100vh;
-    background-color: lightblue;
+    background-color: #6ab187;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.define{
+    color: aliceblue;
+    text-decoration: underline;
+}
 
