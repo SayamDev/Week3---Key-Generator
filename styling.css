@@ -12,7 +12,7 @@ body{
 
 #container{
     height: 100vh;
-    background-color: #FF2E00;
+    background-color: #5dd39e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ header{
 
 
 h3{
-    color: #FFDD02;
+    color: black;
     font-size: 32px;
     margin-left: 20px;
     font-weight: 300;
