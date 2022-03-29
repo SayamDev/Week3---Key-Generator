@@ -7,7 +7,7 @@ window.addEventListener("keydown", (event) => {
 
     //location part-----------------
 
-    let locKey = document.getElementById("displayLocation")
+    let locKey = document.getElementById("displayLocation");
 
     let locClick = event.location;
 
@@ -16,11 +16,20 @@ window.addEventListener("keydown", (event) => {
 
 
 
-    let codeKey = document.getElementById("displayCode")
+    //better way to display the code
+    let codeKey = document.getElementById("displayCode");
+    
+    let altKey = document.getElementById("displayAlt");
+
+
 
     let codeClick = event.code;
+    let altClick = event.altKey;
+
 
     codeKey.innerHTML = `${codeClick}`
+    altKey.innerHTML = `${altClick}`
+
 
 
 });
