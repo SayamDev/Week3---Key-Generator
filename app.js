@@ -1,4 +1,13 @@
 window.addEventListener("keydown", (event) => {
+
+    //this will target the id page 1
+    const start = document.getElementById("page1")
+    //this will target the display property of id = page1 to display none
+    start.style.display="none"
+
+
+
+
     let numKey = document.getElementById("displayKey"); //assigned the keyDisplay id from html to numKey
     
     let keyClick = event.key; // .key = generates an event of the key that was executed
@@ -30,6 +39,6 @@ window.addEventListener("keydown", (event) => {
     codeKey.innerHTML = `${codeClick}`
     altKey.innerHTML = `${altClick}`
 
-
+   
 
 });
